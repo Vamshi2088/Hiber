@@ -33,6 +33,71 @@ public class Employe {
 	}
 
 
+	
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+
+
+
+	public double getSalary() {
+		return salary;
+	}
+
+
+
+
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+
+
+
+
+	public char getGrade() {
+		return grade;
+	}
+
+
+
+
+
+	public void setGrade(char grade) {
+		this.grade = grade;
+	}
+
+
+
 
 
 	public Employe(String name, double salary, char grade) {
